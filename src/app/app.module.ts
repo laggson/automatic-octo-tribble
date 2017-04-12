@@ -6,6 +6,7 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
 import { WillkommensbereichPage } from '../pages/willkommensbereich/willkommensbereich';
+import { MeinSteckbriefPage } from '../pages/mein-steckbrief/mein-steckbrief';
 
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -16,7 +17,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     HomePage,
     ListPage,
-    WillkommensbereichPage
+    WillkommensbereichPage,
+    MeinSteckbriefPage
   ],
   imports: [
     BrowserModule,
@@ -27,8 +29,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     HomePage,
     ListPage,
-    WillkommensbereichPage
-
+    WillkommensbereichPage,
+    MeinSteckbriefPage
   ],
   providers: [
     StatusBar,
