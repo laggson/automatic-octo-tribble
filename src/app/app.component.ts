@@ -3,6 +3,7 @@ import { Nav, Platform } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
+import { WillkommensbereichPage } from '../pages/willkommensbereich/willkommensbereich';
 import { HomePage } from '../pages/home/home';
 import { ConnextPage } from '../pages/connext/connext';
 
@@ -12,7 +13,7 @@ import { ConnextPage } from '../pages/connext/connext';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = HomePage;
+  rootPage: any = WillkommensbereichPage;
 
   pages: Array<{title: string, component: any}>;
 
@@ -21,8 +22,14 @@ export class MyApp {
 
     // used for an example of ngFor and navigation
     this.pages = [
+<<<<<<< HEAD
       { title: 'Mein Steckbrief', component: HomePage },
       { title: 'Über Connext', component: ConnextPage }
+=======
+        { title: 'Willkommensbereich', component: WillkommensbereichPage },
+        { title: 'Mein Steckbrief',    component: HomePage },
+        { title: 'List', component: ListPage }
+>>>>>>> refs/remotes/origin/master
     ];
 
   }
