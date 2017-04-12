@@ -22,14 +22,10 @@ export class MyApp {
 
     // used for an example of ngFor and navigation
     this.pages = [
-<<<<<<< HEAD
-      { title: 'Mein Steckbrief', component: HomePage },
-      { title: 'Über Connext', component: ConnextPage }
-=======
+
         { title: 'Willkommensbereich', component: WillkommensbereichPage },
-        { title: 'Mein Steckbrief',    component: HomePage },
-        { title: 'List', component: ListPage }
->>>>>>> refs/remotes/origin/master
+        { title: 'Mein Steckbrief', component: HomePage },
+        { title: 'Über Connext', component: ConnextPage }
     ];
 
   }
