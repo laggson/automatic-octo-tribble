@@ -6,6 +6,7 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { ConnextPage } from '../pages/connext/connext';
 import { WillkommensbereichPage } from '../pages/willkommensbereich/willkommensbereich';
+import { MeinSteckbriefPage } from '../pages/mein-steckbrief/mein-steckbrief';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -14,8 +15,14 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   declarations: [
     MyApp,
     HomePage,
+<<<<<<< HEAD
     ConnextPage,
     WillkommensbereichPage
+=======
+    ListPage,
+    WillkommensbereichPage,
+    MeinSteckbriefPage
+>>>>>>> refs/remotes/origin/Henry's-Branch
   ],
   imports: [
     BrowserModule,
@@ -25,8 +32,14 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   entryComponents: [
     MyApp,
     HomePage,
+<<<<<<< HEAD
     ConnextPage,
     WillkommensbereichPage
+=======
+    ListPage,
+    WillkommensbereichPage,
+    MeinSteckbriefPage
+>>>>>>> refs/remotes/origin/Henry's-Branch
   ],
   providers: [
     StatusBar,
