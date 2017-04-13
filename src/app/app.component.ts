@@ -5,7 +5,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { WillkommensbereichPage } from '../pages/willkommensbereich/willkommensbereich';
 import { HomePage } from '../pages/home/home';
-import { ListPage } from '../pages/list/list';
+import { ConnextPage } from '../pages/connext/connext';
 
 @Component({
   templateUrl: 'app.html'
@@ -22,9 +22,10 @@ export class MyApp {
 
     // used for an example of ngFor and navigation
     this.pages = [
+
         { title: 'Willkommensbereich', component: WillkommensbereichPage },
-        { title: 'Mein Steckbrief',    component: HomePage },
-        { title: 'List', component: ListPage }
+        { title: 'Mein Steckbrief', component: HomePage },
+        { title: 'Über Connext', component: ConnextPage }
     ];
 
   }
