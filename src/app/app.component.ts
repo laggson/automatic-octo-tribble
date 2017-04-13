@@ -4,13 +4,8 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { WillkommensbereichPage } from '../pages/willkommensbereich/willkommensbereich';
-<<<<<<< HEAD
-import { HomePage } from '../pages/home/home';
-import { ConnextPage } from '../pages/connext/connext';
-=======
 import { MeinSteckbriefPage } from '../pages/mein-steckbrief/mein-steckbrief';
-import { ListPage } from '../pages/list/list';
->>>>>>> refs/remotes/origin/Henry's-Branch
+import { ConnextPage } from '../pages/connext/connext';
 
 
 @Component({
@@ -30,13 +25,8 @@ export class MyApp {
     this.pages = [
 
         { title: 'Willkommensbereich', component: WillkommensbereichPage },
-<<<<<<< HEAD
-        { title: 'Mein Steckbrief', component: HomePage },
+        { title: 'Mein Steckbrief', component: MeinSteckbriefPage },
         { title: 'Über Connext', component: ConnextPage }
-=======
-        { title: 'Mein Steckbrief',    component: MeinSteckbriefPage },
-        { title: 'List', component: ListPage }
->>>>>>> refs/remotes/origin/Henry's-Branch
     ];
 
   }

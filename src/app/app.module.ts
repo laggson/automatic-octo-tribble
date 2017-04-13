@@ -3,7 +3,6 @@ import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 
 import { MyApp } from './app.component';
-import { HomePage } from '../pages/home/home';
 import { ConnextPage } from '../pages/connext/connext';
 import { WillkommensbereichPage } from '../pages/willkommensbereich/willkommensbereich';
 import { MeinSteckbriefPage } from '../pages/mein-steckbrief/mein-steckbrief';
@@ -14,15 +13,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 @NgModule({
   declarations: [
     MyApp,
-    HomePage,
-<<<<<<< HEAD
-    ConnextPage,
-    WillkommensbereichPage
-=======
-    ListPage,
     WillkommensbereichPage,
-    MeinSteckbriefPage
->>>>>>> refs/remotes/origin/Henry's-Branch
+    MeinSteckbriefPage,
+    ConnextPage
   ],
   imports: [
     BrowserModule,
@@ -31,15 +24,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage,
-<<<<<<< HEAD
-    ConnextPage,
-    WillkommensbereichPage
-=======
-    ListPage,
     WillkommensbereichPage,
-    MeinSteckbriefPage
->>>>>>> refs/remotes/origin/Henry's-Branch
+    MeinSteckbriefPage,
+    ConnextPage
   ],
   providers: [
     StatusBar,
